@@ -1,0 +1,92 @@
+/*
+Paleta de colores
+color: #FCEFED; Rosa palido
+color: #E8C2CA; Reina rosa
+color: #D1B3C4; Cardo
+color: #B392AC; Uva brillante
+color: #735D78; Lavanda
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
+ /* font-family: 'Poppins', sans-serif; */
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+ }
+
+  /* Barra de navegacion */
+  .navbar{
+    padding: 2rem;
+    background: rgb(207,193,212);
+    background: radial-gradient(circle, rgba(207,193,212,1) 50%, rgba(232,221,218,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgb(182, 180, 180);
+ }
+
+.carousel-inner{
+    max-height: 39rem;
+    text-align: center;
+}
+
+.carousel-item{
+    max-height: 39rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+h1{
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .card{
+    margin: 2rem;
+
+  }
+
+ /* FOOTER */
+ .footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f1e2f5;
+    color: black;
+    padding: 1rem;
+    /* background: rgb(252,246,254); */
+    background: rgb(207,193,212);
+    background: radial-gradient(circle, rgba(207,193,212,1) 50%, rgba(232,221,218,1) 100%);
+ 
+ }
+ 
+ .formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2rem;
+ }
+ .footer-redes, li{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-decoration: none;
+ 
+ }
+
+ .espacio{
+    padding: 10px;
+    border-radius: 3px;
+    margin: 10px;
+ }
+
+ .button{
+    padding: 1rem;
+ }
+
+
+
