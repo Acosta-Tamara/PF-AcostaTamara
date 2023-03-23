@@ -13,7 +13,7 @@ color: #735D78; Lavanda
     margin: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    
+
  }
 
   /* Barra de navegacion */
@@ -60,9 +60,9 @@ h1{
     /* background: rgb(252,246,254); */
     background: rgb(207,193,212);
     background: radial-gradient(circle, rgba(207,193,212,1) 50%, rgba(232,221,218,1) 100%);
- 
+
  }
- 
+
  .formulario{
     display: flex;
     flex-direction: column;
@@ -75,7 +75,7 @@ h1{
     list-style: none;
     justify-content: space-around;
     text-decoration: none;
- 
+
  }
 
  .espacio{
@@ -97,7 +97,7 @@ h1{
 /* main{
    background: linear-gradient(#200525 0%, #68207c 30%, #2a0b33 30%, #f1e2f5 100%);
 } */
- 
+
 .contacto{
    position: relative;
    width: 100%;
@@ -138,13 +138,13 @@ h1{
    display: grid;
    grid-template-columns: 2fr 1fr;
    grid-template-rows: 5fr 4fr;
-   grid-template-areas: 
-   "form info" 
+   grid-template-areas:
+   "form info"
    "form map";
    grid-gap: 20px;
    margin-top: 20px;
 
-   
+
 }
 
 .contacto h3 {
@@ -175,7 +175,7 @@ h1{
 
 .formBox .row100 .inputBox{
    width: 100;
-   
+
 }
 
 .inputBox span{
@@ -228,7 +228,7 @@ h1{
    justify-content: center;
    align-items: center;
    background-color: aliceblue;
-   font-size: 1.5rem;   
+   font-size: 1.5rem;
    border-radius: 50%;
    margin-right: 15px;
 }
@@ -277,7 +277,7 @@ h1{
 
 @media (max-width: 991px)
 {
-   main 
+   main
    {
       background: #f1e2f5;
    }
@@ -290,20 +290,20 @@ h1{
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: auto;
-      grid-template-areas: 
+      grid-template-areas:
       "form"
       "info"
       "map";
    }
-      
-   
+
+
 
    .formBox .row50{
       display: flex;
       gap: 0;
       flex-direction: column;
    }
-   
+
    .inputBox{
       width: 100%;
    }
@@ -318,3 +318,63 @@ h1{
    }
 
    }
+
+
+
+.container-preguntas{
+   width: 50%;
+   margin: 0 auto;
+   margin-top: 5%;
+
+
+}
+
+.container-preguntas, h2 {
+   color: #333;
+   position: relative;
+   width: 50rem;
+}
+
+.accordion{
+   width: 100%;
+   padding: 0 5px;
+   border: 2px solid  #eac8f3;
+   cursor: pointer;
+   border-radius: 50px;
+   display: flex;
+   margin: 10px 0;
+   align-items: center;
+}
+
+.accordion .icon{
+   margin: 0 10px 0 0 ;
+   width: 30px;
+   height: 30px;
+   background: url(images/toggle-gg.png) no-repeat 8px 7px #cc63ec;
+   border-radius: 50%;
+   float: left;
+   transition:  all .5s ease-in;
+}
+
+
+.accordion h3{
+   font-size: 22px;
+   margin: 0;
+   padding: 3px 0 0 0 ;
+   font-weight: normal;
+   color: #852f2f;
+
+}
+
+
+.panel{
+   padding: 0 15px;
+   border-left: 1px solid #d771f7;
+   margin-left: 25px;
+   font-size: 14px;
+   text-align: justify;
+   overflow: hidden;
+   max-height: 300px;
+   transition: all .5s ease-in;
+}
+
