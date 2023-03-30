@@ -378,3 +378,30 @@ h1{
    transition: all .5s ease-in;
 }
 
+/* Seccion sobre mi */
+.seccion-color{
+   background-color: #e2d7e6;
+   width: auto;
+}
+
+.sobre-mi {
+   height: 500px;
+   padding: 10px;
+}
+
+.sobre-mi .contenedor {
+   width: 18rem;
+   text-align: center;
+   
+}
+
+.seccion-titulo{
+   font-size: 2rem;
+   padding: 20px 0;
+   margin: 1px;
+}
+
+.seccion-texto{
+   font-size: 1.5rem;
+   width: 1200px;
+}
